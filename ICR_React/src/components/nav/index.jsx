@@ -11,7 +11,7 @@ function openMenu(){
 }
 
     return (
-        <header className="bg-cyan-300">
+        <header className="bg-cyan-300 font-lexend">
             <div className="flex items-center justify-between p-5 ">
                 <div className="w-36">
                     <img src="./src/assets/logo.png" alt="Logo ICR" />
