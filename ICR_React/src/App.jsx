@@ -1,5 +1,5 @@
-import Nav from './components/Nav/index'
-import Home from './components/Main/index';
+import Nav from './components/Nav'
+import Home from './components/Main';
 import Footer from './components/Footer';
 
 const App = () => {
