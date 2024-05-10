@@ -2,7 +2,7 @@ import CardMain from "../CardMain"
 
 const Main = () => {
   return (
-    <div className="mb-5">
+    <main className="mb-5">
       <section className="w-full">
 
         <div className="flex justify-center h-screen w-full bg-[url(./src/assets/background_novo2.jpg)] object-center">
@@ -12,7 +12,7 @@ const Main = () => {
               <h1 className="flex justify-center text-3xl font-lexend pb-2">
                 Quem Somos ?
               </h1>
-              <p className="align text-center px-32 font-lexend text-lg">
+              <p className="align text-center lg:px-32 font-lexend text-lg">
                 Conheça um pouco sobre nós, A nossa empresa, Tech do Bem, que surgiu da parceria do ICr com a Fiap, tem como missao, informar de uma maneira fácil, simples e divertida, todas as crianças/adolescentes e seus acompanhantes que visitam o Instituto!
               </p>
             </div>
@@ -31,7 +31,7 @@ const Main = () => {
           </div>
         </section>
       </section>
-    </div>
+    </main>
   )
 }
 

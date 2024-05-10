@@ -1,12 +1,12 @@
 import Nav from './components/Nav'
-import Home from './components/Main';
+import Main from './components/Main'
 import Footer from './components/Footer';
 
 const App = () => {
   return (
     <div>
       <Nav />
-      <Home />
+      <Main />
       <Footer/>
     </div>
   )
