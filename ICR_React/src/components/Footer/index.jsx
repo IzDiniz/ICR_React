@@ -1,9 +1,9 @@
 
 const Footer = () => {
   return (
-    <footer className="p-5 bg-cyan-300 font-lexend text-white">
+    <footer className="p-5 bg-gradient-to-tr from-cyan-300 to-cyan-600 text-white font-lexend">
         <div>
-            <p className="flex justify-center text-sm">
+            <p className="flex justify-center text-sm text-center">
                 Todos os direitos reservados a Tech do Bem ©Copyright
             </p>
         </div>

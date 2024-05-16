@@ -1,12 +1,12 @@
-import Nav from './components/Nav'
-import Main from './components/Main'
+import Nav from './components/Nav/index'
 import Footer from './components/Footer';
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
       <Nav />
-      <Main />
+      <Outlet />
       <Footer/>
     </div>
   )
