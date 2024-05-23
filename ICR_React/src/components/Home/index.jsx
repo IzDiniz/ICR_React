@@ -5,7 +5,7 @@ const Home = () => {
     <main className="mb-5 font-lexend">
       <section className="w-full">
 
-        <div className="flex justify-center h-[90vh] w-full bg-[url(./src/assets/background_novo2.jpg)] object-center">
+        <div className="flex justify-center h-[90vh] w-full bg-[url(./src/assets/background_novo2.jpg)] bg-cover object-center">
           <div className="flex flex-col gap-y-5 pt-5 text-white">
 
             <div className="relative top-1/3">

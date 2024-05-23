@@ -10,6 +10,7 @@ import RaioX from './components/RaioX/index.jsx'
 import ExameSangue from './components/ExameSangue/index.jsx'
 import Ressonancia from './components/Ressonancia/index.jsx'
 import AssistenteClara from './components/AssistenteClara/index.jsx'
+import Doacoes from './components/Doacoes/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {path: 'Exames', element: <Exames />},
       {path: 'AssistenteClara', element: <AssistenteClara />},
       {path: 'RaioX', element: <RaioX />},
+      {path: 'Doacoes', element: <Doacoes />},
       {path: 'ExameSangue', element: <ExameSangue />},
       {path: 'Ressonancia', element: <Ressonancia/>},
     ]

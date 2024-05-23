@@ -29,8 +29,8 @@ function ExameSangue() {
                         Esses átomos, quando expostos ao campo magnético, alinham-se em uma direção específica. Quando as ondas de rádio são desligadas, os átomos liberam energia e voltam ao seu estado original, produzindo sinais detectáveis por antenas especiais. Esses sinais são processados por computadores para criar imagens detalhadas dos órgãos, músculos, ossos e outras estruturas internas.
                         </p>
 
-                        <div className="pb-5">
-                            <img src="./src/assets/exame-de-sangue.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[500px]"/>
+                        <div className="pb-5 w-auto">
+                            <img src="./src/assets/exame-de-sangue.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[500px] w"/>
                         </div>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ function ExameSangue() {
                             <img src="./src/assets/coronavirus-blood-samples-assortment-lab.jpg" alt="Raio-x Imagem 1" className="w-[600px] h-[600px] 2xl:ml-32 xl:mx-10"/>
                         </div>
 
-                        <div>
-                            <p className="text-[18px] pb-4 text-justify pr-5 mx-3">
+                        <div className="">
+                            <p className=" text-[18px] pb-4 text-justify pr-5 mx-3">
                                 O exame de sangue desempenha um papel crucial na prevenção, diagnóstico e tratamento de uma ampla gama de condições médicas.
                             </p>
                             <ul className="list-disc whitespace-pre-wrap text-[18px] text-justify pl-10 pr-5 pb-5">

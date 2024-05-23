@@ -25,7 +25,7 @@ function openMenu(){
                         <a className="text-white hover:bg-cyan-500
                         rounded-full px-5 py-2 cursor-pointer"><Link to="Exames">Exames</Link></a>
                         <a className="text-white hover:bg-cyan-500
-                        rounded-full px-5 py-2 cursor-pointer"><Link>Doações</Link></a>
+                        rounded-full px-5 py-2 cursor-pointer"><Link to="Doacoes">Doações</Link></a>
                         <a className="text-white hover:bg-cyan-500
                         rounded-full px-5 py-2 cursor-pointer"><Link to="AssistenteClara">Assistente Clara</Link></a>
                     </nav>
@@ -48,7 +48,7 @@ function openMenu(){
                     <ul>
                         <li className="text-white text-xl mb-2 cursor-pointer hover:bg-cyan-500 py-2"><Link to="/">Home</Link></li>
                         <li className="text-white text-xl mb-2 cursor-pointer hover:bg-cyan-500 py-2"><Link to="Exames">Exames</Link></li>
-                        <li className="text-white text-xl mb-2 cursor-pointer hover:bg-cyan-500 py-2"><Link>Doações</Link></li>
+                        <li className="text-white text-xl mb-2 cursor-pointer hover:bg-cyan-500 py-2"><Link to="Doacoes">Doações</Link></li>
                         <li className="text-white text-xl mb-2 cursor-pointer hover:bg-cyan-500 py-2"><Link to="AssistenteClara">Assistente Clara</Link></li>
                     </ul>
                 </nav>
